@@ -236,3 +236,27 @@
   text-align: center;
   padding: 2rem;
 }
+
+/* Favorit button styling */
+.poster-wrapper {
+  position: relative;
+}
+
+.favorite-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background: rgba(0, 0, 0, 0.6);
+  border: none;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.1rem;
+  color: white;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.movie-card.favorited {
+  border-color: #e53e3e;
+}
