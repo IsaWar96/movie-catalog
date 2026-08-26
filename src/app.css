@@ -217,3 +217,22 @@
   color: #999;
   font-size: 0.85rem;
 }
+
+/* Search bar styling */
+.search-input {
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  border: 1px solid #444;
+  background: #222;
+  color: white;
+  width: 100%;
+  max-width: 300px;
+  margin-top: 0.5rem;
+}
+
+.no-results {
+  color: #999;
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 2rem;
+}
