@@ -23,7 +23,9 @@ export const App = component$(() => {
     <main>
       <header>
         <h1>Movie Catalog</h1>
+        <label for="search" class="sr-only">Search movies</label>
         <input
+          id="search"
           type="text"
           class="search-input"
           placeholder="Search movies..."
